@@ -1,0 +1,10 @@
+{
+  "name": "vercel-pkg-example-cra-pkg",
+  "version": "0.1.0",
+  "private": true,
+  "bin": "./index-pkg.js",
+  "pkg": {
+    "assets": "build/**/*",
+    "outputPath": "binary"
+  }
+}
